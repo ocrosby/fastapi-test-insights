@@ -1,7 +1,7 @@
 from typing import List
-
 from xml.etree import ElementTree as ET
-from app.models import TestSuite, TestCase
+
+from app.models import TestCase, TestSuite
 
 
 def parse_testsuite_element(elem) -> TestSuite:

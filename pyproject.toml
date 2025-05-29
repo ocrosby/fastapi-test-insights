@@ -32,6 +32,7 @@ dev = [
     "isort",
     "mypy",
     "pylint",
+    "autoflake",
     "pytest",
     "pytest-cov",
     "pytest-bdd",

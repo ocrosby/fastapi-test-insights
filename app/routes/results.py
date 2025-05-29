@@ -1,4 +1,5 @@
-from fastapi import APIRouter, UploadFile, File
+from fastapi import APIRouter, File, UploadFile
+
 from app.parsers.junit import parse_junit_xml
 
 router = APIRouter()

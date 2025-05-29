@@ -1,8 +1,6 @@
 import allure
-import pytest
-from pytest_bdd import scenario, given, when, then
-
 from fastapi.testclient import TestClient
+from pytest_bdd import given, scenario, then, when
 
 
 @scenario("hello.feature", "Saying hello to a named user")
