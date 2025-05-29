@@ -177,3 +177,5 @@ junit.xml
 
 # Ignore Sphinx build directory
 docs/build/
+
+allure-results/
