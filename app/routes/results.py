@@ -3,6 +3,7 @@ from app.parsers.junit import parse_junit_xml
 
 router = APIRouter()
 
+
 @router.post("/results/upload")
 async def upload_results(file: UploadFile = File(...)):
     contents = await file.read()

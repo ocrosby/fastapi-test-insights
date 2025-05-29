@@ -21,7 +21,7 @@ def lint(c):
     c.run("flake8 app tests")
 
 @task(aliases=["f"])
-def format(c):
+def format_code(c):
     """Format code with black."""
     c.run("black app tests")
 
