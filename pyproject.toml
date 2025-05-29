@@ -37,9 +37,9 @@ dev = [
     "pytest-cov",
     "pytest-bdd",
     "pytest-mock",
-    "allure-pytest",
-    "allure-pytest-bdd",
-    "allure-python-commons"
+    "allure-pytest @ git+https://github.com/ocrosby/allure-python.git@bugfix/alluredir#subdirectory=allure-pytest",
+    "allure-pytest-bdd @ git+https://github.com/ocrosby/allure-python.git@bugfix/alluredir#subdirectory=allure-pytest-bdd",
+    "allure-python-commons @ git+https://github.com/ocrosby/allure-python.git@bugfix/alluredir#subdirectory=allure-python-commons",
 ]
 
 [tool.flit.sdist]
