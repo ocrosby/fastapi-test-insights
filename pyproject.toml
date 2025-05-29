@@ -29,8 +29,13 @@ dev = [
     "black",
     "isort",
     "flake8",
+    "isort",
+    "mypy",
+    "pylint",
     "pytest",
+    "pytest-cov",
     "pytest-bdd",
+    "pytest-mock",
     "allure-pytest",
     "allure-pytest-bdd",
     "allure-python-commons"
