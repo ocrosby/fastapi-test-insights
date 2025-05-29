@@ -27,13 +27,13 @@ jobs:
           pip install flit invoke
 
       - name: 📦 Install project with dev dependencies
-        run: flit install --deps=develop --symlink
+        run: invoke install
 
-      - name: 🔍 Lint (flake8 + black check)
-        run: inv lint && black --check app tests
+      - name: 🔍 Lint
+        run: invoke lint
 
       - name: ✅ Run unit tests via invoke
-        run: inv test
+        run: invoke test
 
       - name: 📤 Upload allure results
         uses: actions/upload-artifact@v4
